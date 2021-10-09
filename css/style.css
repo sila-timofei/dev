@@ -1,0 +1,47 @@
+.wrapper-fullscreen {
+    min-height: 100vh;
+    background-image: url('../img/bg-main.jpg');
+    background-size: 50%;
+    background-position: right center;
+    background-repeat: no-repeat;
+}
+
+.fullscreen {
+    width: 100%;
+    min-height: 100vh;
+}
+
+.wrapper-main-title {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    font-size: 50px;
+    line-height: 61px;
+    white-space: pre-line;
+    margin-top: 140px;
+    margin-left: 100px;
+}
+
+.wrapper-main-title > span {
+    color: #C0B2B2;
+}
+
+.wrapper-container-btn {
+    display: flex;
+    justify-content: center;
+    margin-top: 110px;
+}
+
+.wrapper-container-btn > a {
+    color: #000000;
+}
+
+.wrapper-container-btn > a:hover {
+    color: #D65745;
+}
+
+.footer {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+}
