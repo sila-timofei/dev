@@ -42,23 +42,13 @@
     width: 100%;
 }
 
+.header {
+    padding: 30px 0;
+}
+
 .header > .row {
     justify-content: space-between;
     align-items: center;
-}
-.header > .container {
-    padding-top: 40px;
-    padding-bottom: 10px;
-}
-
-.header > .container::before {
-    position: absolute;
-    content: '';
-    left: 0;
-    top: 0;
-    height: 100%;
-    width: 136px;
-    background-color: #33383D;
 }
 
 .header > .container > .flex-item {
@@ -68,10 +58,22 @@
 .header-logo {
     position: relative;
     margin-right: 78px;
-    color: #fff;
+    color: #000000;
     font-family: 'Oswald', sans-serif;
-    letter-spacing: 0.06em;
-    font-size: 22px;
+    letter-spacing: 0.08em;
+    font-size: 18px;
+    padding-left: 30px;
+}
+
+.header-logo::before {
+    position: absolute;
+    content: '';
+    left: 0;
+    top: -18px;
+    width: 27px;
+    height: 51px;
+    background-image: url('../img/logo.svg');
+    background-repeat: no-repeat;
 }
 
 .header-nav {
