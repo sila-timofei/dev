@@ -1,0 +1,44 @@
+.header {
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    background-color: #fff;
+    z-index: 1;
+}
+
+.contacts {
+    padding-top: 200px;
+    margin-bottom: 100px;
+}
+
+.contacts-link {
+    margin-top: 38px;
+}
+
+.contacts-link > a {
+    font-family: 'Oswald', sans-serif;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 26px;
+    letter-spacing: 0.02em;
+    text-decoration: none;
+    color: #000000;
+    transition: 0.3s;
+}
+
+.contacts-link > i {
+    margin-right: 8px;
+}
+
+.footer-social > div {
+    margin-bottom: 15px;
+}
+
+.contacts-link > a:hover {
+    color: #D65745;
+}
+
+.footer > .container {
+    justify-content: flex-end;
+}

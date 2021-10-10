@@ -12,20 +12,6 @@
     margin-bottom: 100px;
 }
 
-.main-title {
-    font-family: 'Montserrat', sans-serif;
-    font-weight: 500;
-    font-size: 42px;
-    line-height: 51px;
-    margin-left: 100px;
-    margin-bottom: 100px;
-    white-space: pre-line;
-}
-
-.main-title > span {
-    color: #C0B2B2;
-}
-
 .portfolio-card {
     margin-right: 30px;
 }
@@ -52,10 +38,11 @@
 
 .portfolio-card-text > div > a {
     color: black;
+    text-decoration: none;
 }
 
 .portfolio-card-text > div > a:hover {
-    text-decoration: none;
+    text-decoration: underline;
 }
 
 .portfolio-card-poster {
