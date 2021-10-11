@@ -45,3 +45,34 @@
     left: 0;
     width: 100%;
 }
+
+@media screen and (max-width:640px) {
+    .wrapper-main-title {
+		margin-left: 0;
+		margin-top: 40px;
+		font-size: 24px;
+		line-height: 30px;
+		text-align: center;
+	}
+}
+
+@media screen and (max-height:600px) {
+	.wrapper-main-title {
+		margin-left: 0;
+		margin-top: 40px;
+		font-size: 24px;
+		line-height: 30px;
+		text-align: center;
+	}
+}
+
+@media screen and (max-width:450px) {
+	.wrapper-fullscreen {
+		background-size: cover;
+		background-position: center;
+	}
+
+	.wrapper-container-btn {
+		margin-top: 100px;
+	}
+}
