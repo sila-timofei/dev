@@ -321,6 +321,15 @@
 		color: white;
 		opacity: 0.8;
 	}
+
+    .footer-social {
+        margin-bottom: 0;
+    }
+
+    .footer-social > a {
+        color:rgb(0, 0, 0);
+        opacity: 1;
+    }
 }
 
 @media screen and (max-width:450px) {

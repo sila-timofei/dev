@@ -42,3 +42,22 @@
 .footer > .container {
     justify-content: flex-end;
 }
+
+
+
+@media screen and (max-width:940px) {
+    .contacts {
+        padding-top: 100px;
+    }
+
+    .main-title {
+        font-size: 24px;
+        margin-left: 0;
+        line-height: 30px;
+        margin-bottom: 80px;
+    }
+
+    .footer > .row {
+        justify-content: flex-start;
+    }
+}

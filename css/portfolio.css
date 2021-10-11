@@ -78,3 +78,42 @@
 .portfolio-card-link {
     color: white;
 }
+
+
+@media screen and (max-width:940px) {
+    .portfolio {
+        padding-top: 100px;
+    }
+
+    .main-title {
+        font-size: 24px;
+        margin-left: 0;
+        line-height: 30px;
+        margin-bottom: 80px;
+    }
+
+    .footer > .container {
+        flex-direction: column;
+    }
+
+    .footer-social {
+        margin-bottom: 20px
+    }
+
+}
+
+@media screen and (max-width:640px) {
+    .portfolio-cards-container {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .portfolio-card {
+        margin-right: 0;
+        margin-top: 50px;
+    }
+
+    .portfolio-card:first-child {
+        margin-top: 0;
+    }
+}
