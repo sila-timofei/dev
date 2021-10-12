@@ -80,7 +80,7 @@
     letter-spacing: 0.08em;
     font-size: 18px;
     padding-left: 30px;
-    cursor: default;
+    text-decoration: none;
 }
 
 .header-logo::before {
