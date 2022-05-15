@@ -47,7 +47,6 @@
 
 .portfolio-card-poster {
     position: relative;
-    width: 300px;
     height: 300px;
     display: flex;
     align-items: center;
@@ -69,6 +68,15 @@
 
 .portfolio-card-poster-sila {
     background-image: url('../img/dj-sila.jpg');
+}
+
+.portfolio-card-certificate {
+    width: 450px;
+}
+
+.portfolio-card-poster-certificate {
+    background-image: url('../img/certificate1.jpg');
+    height: 320px;
 }
 
 .portfolio-card-poster-milov {
@@ -115,5 +123,9 @@
 
     .portfolio-card:first-child {
         margin-top: 0;
+    }
+
+    .portfolio-card-certificate {
+        width: 100%;
     }
 }
